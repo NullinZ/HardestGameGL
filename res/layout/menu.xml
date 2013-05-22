@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:chkib="http://schemas.android.com/apk/res/com.nullin.hardestgame"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@drawable/menu_bg" android:keepScreenOn="true">
+	<AbsoluteLayout android:id="@+id/btn_container"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="@drawable/menu_bg">
+		<ImageButton android:id="@+id/btn_new_game"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_x="120px" android:layout_y="95px" android:src="@drawable/button_new_game"
+			android:background="#00000000" android:onClick="doPlayNewGame" />
+		<ImageButton android:id="@+id/btn_select_level"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_x="185px" android:layout_y="225px"
+			android:src="@drawable/button_select_level" android:background="#00000000"
+			android:onClick="doShowLevel" />
+		<ImageButton android:id="@+id/btn_option"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_x="435px" android:layout_y="70px" android:src="@drawable/button_option"
+			android:background="#00000000" android:onClick="doShowOptionMenu" />
+		<ImageButton android:id="@+id/btn_help"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_x="430px" android:layout_y="315px" android:src="@drawable/button_help"
+			android:background="#00000000" android:onClick="doShowHelp" />
+		<ImageButton android:id="@+id/btn_about"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_x="525px" android:layout_y="190px" android:src="@drawable/button_about"
+			android:background="#00000000" android:onClick="doShowAbout" />
+		<RelativeLayout android:id="@+id/ad" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<!--<com.admob.android.ads.AdView
+				android:id="@+id/ad" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" chkib:backgroundColor="#000000"
+				chkib:primaryTextColor="#FFFFFF" chkib:secondaryTextColor="#CCCCCC"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentBottom="true" />
+			-->
+		</RelativeLayout>
+	</AbsoluteLayout>
+</LinearLayout>

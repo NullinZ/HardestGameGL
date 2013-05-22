@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="btn_continue">单击继续</string>
+	<string name="btn_menu">菜单</string>
+	<string name="title_death">死亡</string>
+	<string name="title_level">等级</string>
+	<string name="about">
+		世界上最难通过的游戏.\n 版本 1.10.0105 Beta\n
+		发行商：拓维信息系统股份有限公司\n
+		联系我们：wujuanyuan@talkweb.com.cn
+	</string>
+	<string name="success">
+	这只是一个开始,看到这里只说明你有资格玩这个游戏,其他的,即将上市</string>
+
+	<string name="str1">这事号称世界上最难通关的小游戏。我保证这比你以前玩过的任何游戏都要难，世界上一半的人打不过第三关。
+	</string>
+	<string name="instruction">
+		红色方块是你，你通过摇动摇杆来控制它，蓝色小球是敌人，你需要绕过他
+		们，并且吃掉所有黄色小球.当你吃掉所有黄色小球,走到绿色区域，通过本
+		关卡. 有的关卡有一些红色区域;这里是记录点，死亡后会在最近的记录点
+		重新开始.你需要通过所有关卡以获得胜利，但貌似这做起来很难。
+		你的成绩就是你的死亡次数，死的次数越少，成绩越好。双击缩放，两指触摸旋转场景.
+	</string>
+	<string-array name="levelStr">
+		<item> 你根本想不到你要进入到哪里.</item>
+		<item> ﻿下一关将更难.	</item>
+		<item> ﻿小子，放弃吧，别再浪费时间了.	</item>
+		<item> ﻿我确信接下来你将败的很惨.	</item>
+		<item> ﻿这个看来做的太简单了.	</item>
+		<item> ﻿好好面对你悲催的人生吧.	</item>
+		<item> ﻿别头晕，好戏在后面.	</item>
+		<item> ﻿看看你能走多快?	</item>
+		<item> 别迷糊了.	</item>
+		<item> 你的反应怎么样？	</item>
+	</string-array>
+
+</resources>

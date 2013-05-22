@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:chkib="http://schemas.android.com/apk/res/com.nullin.hardestgame"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@drawable/menu_bg" android:keepScreenOn="true">
+	<AbsoluteLayout android:id="@+id/btn_container"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="580px"
+			android:layout_y="320px" android:background="#00000000" android:src="@drawable/button_back_n"
+			android:onClick="doShowMenu" />
+		<com.nullin.hardestgame.view.CheckImageButton
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			chkib:typeId="so" android:layout_x="105px" android:layout_y="60px"
+			android:background="#00000000" chkib:checkedSrc="@drawable/button_sound_n"
+			chkib:normalSrc="@drawable/button_sound_u" android:onClick="onClick" />
+		<com.nullin.hardestgame.view.CheckImageButton
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			chkib:typeId="mo" android:layout_x="350px" android:layout_y="195px"
+			android:background="#00000000" chkib:checkedSrc="@drawable/button_music_n"
+			chkib:normalSrc="@drawable/button_music_u" android:onClick="onClick" />
+		<com.nullin.hardestgame.view.CheckImageButton
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			chkib:typeId="rh" android:layout_x="355px" android:layout_y="45px"
+			android:background="#00000000" chkib:checkedSrc="@drawable/button_right_hand_n"
+			chkib:normalSrc="@drawable/button_right_hand_u" android:onClick="onClick" />
+		<com.nullin.hardestgame.view.CheckImageButton
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			chkib:typeId="tc" android:layout_x="270px" android:layout_y="375px"
+			android:background="#00000000" chkib:checkedSrc="@drawable/button_direction_key_n"
+			chkib:normalSrc="@drawable/button_direction_key_u" android:onClick="onClick" />
+		<com.nullin.hardestgame.view.CheckImageButton
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			chkib:typeId="kc" android:layout_x="74px" android:layout_y="282px"
+			android:background="#00000000" chkib:checkedSrc="@drawable/button_keyboard_n"
+			chkib:normalSrc="@drawable/button_keyboard_u" android:onClick="onClick" />
+		<com.nullin.hardestgame.view.CheckImageButton
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			chkib:typeId="ro" android:layout_x="570px" android:layout_y="130px"
+			android:background="#00000000" chkib:checkedSrc="@drawable/button_rocker_n"
+			chkib:normalSrc="@drawable/button_rocker_u" android:onClick="onClick" />
+	</AbsoluteLayout>
+</LinearLayout>

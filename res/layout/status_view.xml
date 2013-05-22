@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/status_view">
+	<TextView android:id="@+id/tips" android:layout_width="570px"
+		android:layout_height="280px" android:layout_centerInParent="true"
+		android:text="@string/instruction" android:textColor="#ffffff00"
+		android:textSize="24px" android:layout_marginLeft="20px" />
+	<TextView android:id="@+id/btn_continue" android:layout_below="@id/tips"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:text="@string/btn_continue"
+		android:textColor="#ffffff00" android:textSize="28px"
+		android:layout_marginTop="20px" android:onClick="hideStatus"
+		android:clickable="true" />
+</RelativeLayout>

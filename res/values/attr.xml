@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<declare-styleable name="chk_ib">
+		<attr name="checkedSrc" format="reference" />
+		<attr name="normalSrc" format="reference" />
+		<attr name="typeId">
+			<enum name="so" value="0" />
+			<enum name="mo" value="1" />
+			<enum name="rh" value="2" />
+			<enum name="tc" value="3" />
+			<enum name="kc" value="4" />
+			<enum name="ro" value="5" />
+		</attr>
+	</declare-styleable>
+	<declare-styleable name="com.admob.android.ads.AdView">
+		<attr name="backgroundColor" format="color" />
+		<attr name="backgroundTransparent" format="integer" />
+		<attr name="textColor" format="color" />
+		<attr name="primaryTextColor" format="color" />
+		<attr name="secondaryTextColor" format="color" />
+		<attr name="keywords" format="string" />
+		<attr name="refreshInterval" format="integer" />
+	</declare-styleable>
+
+</resources>

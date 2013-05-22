@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:chkib="http://schemas.android.com/apk/res/com.nullin.hardestgame"
+	android:keepScreenOn="true" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/death_title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/title_death"
+		android:layout_centerHorizontal="true" android:layout_alignParentLeft="true"
+		android:layout_marginTop="30px" android:layout_marginLeft="50px"
+		android:textColor="#ffffff00" android:textSize="30px" />
+	<TextView android:id="@+id/deaths" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:layout_below="@id/death_title" android:text=" "
+		android:layout_marginTop="5px" android:layout_marginLeft="70px"
+		android:textColor="#ffffff00" android:textSize="20px" />
+	<TextView android:id="@+id/level_title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/title_level"
+		android:layout_alignParentLeft="true" android:layout_below="@id/deaths"
+		android:layout_marginTop="5px" android:layout_marginLeft="50px"
+		android:textColor="#ffffff00" android:textSize="30px" />
+	<TextView android:id="@+id/level" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:layout_below="@id/level_title" android:text=" "
+		android:layout_marginTop="5px" android:layout_marginLeft="70px"
+		android:textColor="#ffffff00" android:textSize="20px" />
+
+</RelativeLayout>

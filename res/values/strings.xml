@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="btn_continue">continue</string>
+	<string name="btn_menu">MENU</string>
+	<string name="title_death">DEATH</string>
+	<string name="title_level">LEVEL</string>
+	<string name="about">
+	The World\'s Hardest Game.\n version 1.10.0105 Beta\n
+	发行商：拓维信息系统股份有限公司\n
+	联系我们：wujuanyuan@talkweb.com.cn
+	</string>
+	<string name="success">
+	This is just the beginning,This only shows that you
+		are eligible to play this game,others,Comeing soon
+		!</string>
+
+	<string name="str1">This is The World\'s Hardest Game. I guarantee you
+		it is harder than any game you have ever played, or ever will play.
+	</string>
+	<string name="instruction">
+		You are the red square. Avoid the blue circles and
+		collect the yellow circles. Once you have collected all of the yellow
+		circles, move to the green beacon to complete the level. Some levels
+		consist of more than one beacon,and some\'s red; the intermediary
+		beacons act as check
+		points. You must complete all 30 levels in order
+		to submit your score.
+		Your score is a reflection of how many times you
+		have died; the less,
+		the better.Double click to scale,Two finger to rotate.
+	</string>
+	<string-array name="levelStr">
+		<item> YOU DON\'T KNOW WHATYOU\'RE GETTING INTO.</item>
+		<item> ﻿IT GETS MUCH HARDER.	</item>
+		<item> ﻿DON\'T EVEN BOTHERTRYING.	</item>
+		<item> ﻿I CAN ALMOSTGUARANTEE YOU WILLFAIL.	</item>
+		<item> ﻿THAT ONE WAS EASY.	</item>
+		<item> ﻿THIS ONE IS EASIER THANYOUR MOTHER.	</item>
+		<item> ﻿DON\'T GET DIZZY, NOW.	</item>
+		<item> ﻿HOW FAST CAN YOUGO?	</item>
+		<item> ﻿DON\'T GET CONFUZED,NOW.	</item>
+		<item> ﻿HOW GOOD ARE YOURREFLEXES?	</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/level_page" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/menu_bg">
+	<LinearLayout android:id="@+id/gate_container"
+		android:layout_height="380px" android:layout_width="600px"
+		android:layout_marginTop="40px" android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true" android:scrollbars="horizontal">
+		<com.nullin.hardestgame.view.level.LevelListView
+			android:id="@+id/linear" android:layout_height="wrap_content"
+			android:layout_width="3000px" android:orientation="horizontal">
+			<com.nullin.hardestgame.view.level.CellLayout
+				android:layout_width="600px" android:layout_height="380px">
+				<ImageButton android:onClick="onClick" android:id="@+id/level_1"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_01" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_2"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_02" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_3"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_03" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_4"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_04" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_5"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_05" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_6"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_06" />
+			</com.nullin.hardestgame.view.level.CellLayout>
+			<com.nullin.hardestgame.view.level.CellLayout
+				android:layout_width="600px" android:layout_height="380px">
+				<ImageButton android:onClick="onClick" android:id="@+id/level_11"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_07" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_22"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_08" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_33"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_09" />
+				<ImageButton android:onClick="onClick" android:id="@+id/level_44"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_mask" android:background="@drawable/map_ca_10" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_56"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_67"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+			</com.nullin.hardestgame.view.level.CellLayout>
+			<com.nullin.hardestgame.view.level.CellLayout
+				android:layout_width="600px" android:layout_height="380px">
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_19"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_20"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_38"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_4a"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_5d"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_6b"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+			</com.nullin.hardestgame.view.level.CellLayout>
+			<com.nullin.hardestgame.view.level.CellLayout
+				android:layout_width="600px" android:layout_height="380px">
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_1w9"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_2d0"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_3d8"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_4fa"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_5gd"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_6hb"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+			</com.nullin.hardestgame.view.level.CellLayout>
+			<com.nullin.hardestgame.view.level.CellLayout
+				android:layout_width="600px" android:layout_height="380px">
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_19t"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_20h"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_38k"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_4an"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_5df"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+				<ImageButton android:onClick="onClick"
+					android:background="#ff000000" android:id="@+id/level_6bt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/level_gate_lock" />
+			</com.nullin.hardestgame.view.level.CellLayout>
+		</com.nullin.hardestgame.view.level.LevelListView>
+	</LinearLayout>
+	<ImageButton android:id="@+id/level_arrow_left"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerVertical="true" android:layout_marginTop="-20px"
+		android:layout_toLeftOf="@id/gate_container" android:src="@drawable/level_arrow_left"
+		android:background="#ff000000" android:layout_marginRight="10px"
+		android:onClick="levelPrePage" />
+	<ImageButton android:id="@+id/level_arrow_right"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerVertical="true" android:layout_toRightOf="@id/gate_container"
+		android:src="@drawable/level_arrow_right" android:background="#ff000000"
+		android:layout_marginLeft="10px" android:layout_marginTop="-20px"
+		android:onClick="levelNextPage" />
+	<com.nullin.hardestgame.view.level.PageView
+		android:id="@+id/page_view" android:layout_below="@id/gate_container"
+		android:layout_width="600px" android:layout_height="60px"
+		android:layout_centerHorizontal="true">
+	</com.nullin.hardestgame.view.level.PageView>
+</RelativeLayout>

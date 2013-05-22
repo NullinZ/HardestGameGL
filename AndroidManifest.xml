@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.nullin.hardestgame" android:versionCode="9"
+	android:versionName="1.1.412">
+	<application android:icon="@drawable/icon" android:label="惊现闪避">
+		<activity android:name=".HGActivity" android:label="惊现闪避"
+			android:screenOrientation="landscape">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+		</activity>
+		<!-- AdMobActivity definition -->
+		<activity android:name="com.admob.android.ads.AdMobActivity"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:configChanges="orientation|keyboard|keyboardHidden" />
+		<!-- Track Market installs -->
+		<receiver android:name="com.admob.android.ads.analytics.InstallReceiver"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+
+		<meta-data android:value="a14d1454dbc04a9" android:name="ADMOB_PUBLISHER_ID" />
+		<meta-data android:value="bdc9ce4ddecd47159ac274c6cf488880"
+			android:name="Wooboo_PID" />
+		<meta-data android:value="2" android:name="Market_ID" />
+
+	</application>
+
+	<uses-sdk android:minSdkVersion="4" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest> 
